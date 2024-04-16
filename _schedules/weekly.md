@@ -19,7 +19,7 @@ timeline:
   - '5:00 PM'
   - '5:30 PM'
 schedule:
-  - name: Monday
+  - name: 周一
     events:
       - name: Lecture
         start: 9:30 AM
@@ -33,8 +33,8 @@ schedule:
         start: 12:30 PM
         end: 2:00 PM
         location: 271 Soda
-  - name: Tuesday
-  - name: Wednesday
+  - name: 周二
+  - name: 周三
     events:
       - name: Lecture
         start: 9:30 AM
@@ -48,8 +48,8 @@ schedule:
         start: 12:30 PM
         end: 2:00 PM
         location: 271 Soda
-  - name: Thursday
-  - name: Friday
+  - name: 周四
+  - name: 周五
     events:
       - name: Lecture
         start: 9:30 AM
@@ -63,4 +63,11 @@ schedule:
         start: 12:30 PM
         end: 2:00 PM
         location: 271 Soda
+  - name: 周六
+  - name: 周日
+    events:
+      - name: 测试
+        start: 9:30 AM
+        end: 10:30 AM
+        location: 测试教室
 ---
